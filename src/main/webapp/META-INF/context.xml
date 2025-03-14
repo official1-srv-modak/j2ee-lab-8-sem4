@@ -1,0 +1,6 @@
+<Context>
+    <Resource name="java:global/BookServiceBean"
+              auth="Container"
+              type="com.example.service.BookServiceLocal"
+              factory="org.apache.naming.factory.BeanFactory"/>
+</Context>

@@ -1,0 +1,26 @@
+<web-app xmlns="http://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://jakarta.ee/xml/ns/jakartaee
+         http://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+  <display-name>Book Management Application</display-name>
+
+  <!-- Define the BookServlet -->
+  <servlet>
+    <servlet-name>BookServlet</servlet-name>
+    <servlet-class>com.BookManage.controller.BookServlet</servlet-class>
+  </servlet>
+
+  <!-- Map the BookServlet to a URL pattern -->
+  <servlet-mapping>
+    <servlet-name>BookServlet</servlet-name>
+    <url-pattern>/book</url-pattern>
+  </servlet-mapping>
+
+  <!-- Welcome file -->
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>
