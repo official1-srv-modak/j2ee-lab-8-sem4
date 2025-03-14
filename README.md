@@ -12,6 +12,7 @@ do a chmod +x ./standalone.sh
 Then download the project and do a
 mvn clean install wildfly:deploy
 
+copy the war file from the target of the projects
 
 The application is running on 
 
