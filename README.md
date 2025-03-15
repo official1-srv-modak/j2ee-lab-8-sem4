@@ -1,3 +1,5 @@
+Group members: Sourav Modak, Bhavdeep Singh
+
 Download Wildfly from 
 
 https://www.wildfly.org/downloads/
@@ -18,5 +20,4 @@ mvn clean install wildfly:deploy
 copy the war file from the target of the projects to standalone/deployments
 
 The application is running on 
-
-http://localhost:8080/BookManagementApp/book
+http://127.0.0.1:8080/BookManagementApp/book
